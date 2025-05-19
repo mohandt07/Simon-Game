@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-one,
+.line-two {
+    display: flex;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: black;
+}
+
+.game-over {
+    background-color: red !important;
+    transition: background-color 0.2s;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
