@@ -1,61 +1,41 @@
-# 🎮 Simon Says Game
+# Simon Game
 
-A simple memory-based Simon Says game built with HTML, CSS, and JavaScript.
-
----
-
-## 🚀 Live Demo
-
-Play the game here:  
-[https://mohandt07.github.io/Simon-Game/](https://mohandt07.github.io/Simon-Game/)
+A simple Simon Says memory game built with HTML, CSS, and JavaScript.
 
 ---
 
-## 🕹️ How to Play
+## How to Play
 
-1. Press any key to start the game.  
-2. Watch the sequence of flashes on the colored buttons.  
-3. Click the buttons in the same order as the sequence.  
-4. Each level adds a new color to the sequence.  
-5. If you click the wrong color, the screen flashes red and the game restarts.
-
----
-
-## 📸 Screenshot
-
-![Game Screenshot](screenshot.png) <!-- Replace or remove if you don’t have a screenshot -->
+- Press any key to start the game.  
+- Watch the sequence of flashing colors.  
+- Click the buttons in the same order as the sequence.  
+- Each level adds one new color to the sequence.  
+- If you click the wrong button, the game ends and you can restart.
 
 ---
 
-## 🕹️ Gameplay Preview
+## Files
 
-![Gameplay GIF](demo.gif) <!-- Replace or remove if you don’t have a GIF -->
-
----
-
-## 📁 Technologies Used
-
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)
+- `index.html` — The main HTML page.  
+- `style.css` — Styling for the buttons and layout.  
+- `app.js` — Game logic and interaction.
 
 ---
 
-## 💡 Features
+## How to Run Locally
 
-- Randomized sequence generation  
-- Visual flash feedback for system and user inputs  
-- Red flash effect on game over  
-- Responsive layout and animations
-
----
-
-## 📬 Contributing
-
-Feel free to fork this repository and make improvements or add features!
+1. Download or clone this repository.  
+2. Open `index.html` in your web browser.  
+3. Enjoy playing the game!
 
 ---
 
-## 📜 License
+## License
 
-This project is open source and available under the MIT License.
+This project is open source and free to use.
+
+---
+
+## Author
+
+Created by mohandt07.
